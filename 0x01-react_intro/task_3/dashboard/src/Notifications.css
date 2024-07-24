@@ -1,0 +1,12 @@
+.Notifications {
+    border: 2px dashed red;
+    padding: 1rem 0;
+}
+
+.Notifications li{
+    color:blue;
+}
+
+.Notifications li[data-urgent="true"]{
+    color:red;
+}

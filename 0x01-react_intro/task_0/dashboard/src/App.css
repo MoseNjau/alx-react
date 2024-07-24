@@ -1,0 +1,42 @@
+:root {
+  --color-red: #ff5252;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
+}
+
+
+.App-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid var(--color-red);
+  color: var(--color-red);
+}
+
+.App-header h1 {
+  font-size: 3rem;
+}
+
+.App-body {
+  padding: 2em 0 0 2em;
+  flex-grow:1;
+}
+
+.App-footer {
+  text-align: center;
+  border-top: 4px solid var(--color-red);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2em;
+}
